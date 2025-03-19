@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+.top-bar{
+    height: 55px;
+    background-color: rgb(12, 12, 36);
+}
+.top-bar-img{
+    width: 20%;
+}
+.nav-sec{
+    width: 90%;
+    height: 80px;
+}
+.off-list,.about-foot li, .location-foot li, .social-foot li{
+    list-style-type: none;
+}
+.off-list a{
+    letter-spacing: 2px;
+}
+.hero-page{
+    background-image: url(../Images/Background/coffeebean-hero-coffee-cup.jpg);
+    height: 580px;
+}
+.hero-page,.coffee-bg,.coffee-bg1,.coffee-bg2{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.font-h1{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
+}
+.hero-text,.miss-out,.roasting,.about,.img-insta,.cube-text,.heart-text, .leaf-text, .help-text{
+    width: 90%;
+}
+.hero-text1{
+    height: 530px;
+}
+.hero-text a:hover{
+    background-color: rgb(210, 145, 26);
+    color: white;
+}
+.roast-h2{
+    font-size: 44px;
+}
+.text-roasting, .about{
+    padding: 100px 0px 80px;
+}
+.ver-bor{
+    border-right: 2px solid orange;
+    height: 40px;
+    width:0%;
+}
+.bag,.about{
+    height: 600px;
+}
+.coffee-bg{
+    background-image: url(../Images/Background/cup-black.jpg);
+    height: 380px;
+    width: 100%;
+}
+.lsp-p{
+    letter-spacing: 2px;
+}
+.coffee-bg1{
+    background-image: url(../Images/Background/leaf.jpg);
+    height: 380px;
+    width: 100%;
+}
+.coffee-bg2{
+    background-image: url(../Images/Background/iced-coffee-1.jpg);
+    height: 380px;
+    width: 100%;
+}
+.insta{
+    height: 2000px;
+}
+.extra-space{
+    height: 100px;
+}
+.image{
+    width: 280px;
+    height: 280px;
+}
+.miss-out{
+    height: 500px;
+}
+.miss-out-text{
+    padding: 24px;
+}
+.miss-out-text button{
+    background-color: #242434;
+    color: rgb(194, 140, 39);
+    width: 100%;
+}
+.cube{
+    background-color: #F6F6F7;
+}
+.box{
+    height:1284px;
+    box-sizing: border-box;
+    color: #3A3A3B;
+}
+.heart{
+    background-color: #E2DDD9;
+}
+.leaf{
+    background-color: #e4e4e7;
+}
+.help{
+    background-color: #EDEEED;
+}
+.help, .heart, .cube, .leaf{
+    height: 320px;
+}
+footer{
+    background-color: rgb(12, 12, 36);
+    height: 700px;
+}
+.about-foot li, .location-foot li, .font-s{
+    font-size: 12px;
+}
+.part1{
+    height: 500px;
+}
+.part2{
+    border-top: 0.2px solid gray;
+}
+@media(min-width:768px){
+    .hero-text1{
+        width: 50%;
+    }
+    .coffee-bg, .coffee-bg1,.coffee-bg2{
+        height: 550px;
+    }
+    .image{
+        width: 320px;
+        height: 280px;
+    }
+    .insta{
+        height: 1150px;
+    }
+    .about{
+        height: 500px;
+    }
+    .miss-out-text button{
+        width: 35%;
+    }
+    .miss-out-text input{
+        height: 45px;
+    }
+    .miss-out{
+        height: 400px;
+    }
+    .box{
+        height: 644px;
+    }
+    .part1{
+        height: 250px;
+    }
+    footer{
+        height: 330px;
+    }
+    .top-bar-img{
+        width: 10%;
+        margin: 0 auto;
+    }
+}
+@media(min-width:992px){
+    .top-bar-img{
+        width: 9%;
+    }
+    .image{
+        width: 180px;
+        height: 180px;
+    }
+    .insta{
+        height: 700px;
+    }
+    .box{
+        height: 320px;
+    }
+}
+@media(min-width:1200px){
+    .top-bar-img{
+        width: 5%;
+    }
+    .insta{
+        height: 500px;
+    }
+    .miss-out-text button{
+        width: 30%;
+    }
+}
